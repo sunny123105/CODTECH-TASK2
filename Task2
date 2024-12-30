@@ -30,7 +30,7 @@ print("\nSummary Statistics:")
 print(df.describe())
 
 # 3. Select relevant columns (Example: 'YearsExperience' and 'Salary')
-# Replace 'YearsExperience' and 'Salary' with column names from your dataset
+ 
 if 'YearsExperience' not in df.columns or 'Salary' not in df.columns:
     print("Error: The dataset does not contain the required columns.")
     exit()
