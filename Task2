@@ -11,7 +11,7 @@ import os
 print("Current Working Directory:", os.getcwd())
 
 # 1. Load the dataset
-# Provide the full file path if needed, e.g., r"C:\Users\HP\Downloads\supermarket_sales.csv"
+ 
 file_path = r"C:\Users\HP\Downloads\Salary_Data.csv"  # Replace with the correct file path
 try:
     df = pd.read_csv(file_path)
